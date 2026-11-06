@@ -1,8 +1,5 @@
 # musafarvalayankaden-STUDENT_RECORD_MANAGEMENT_SYSTEM
-Objective: Develop a menu-driven Student Record Management System in C using a singly linked list, dynamic memory allocation, modular programming, searching, sorting, and file handling.
-
-
-A robust, console-based **Student Record Management System** implemented in C using **Singly Linked Lists (SLL)** and file persistence. This project allows users to efficiently manage student records—including names, automatically assigned unique roll numbers, and academic percentages—with full data persistence across sessions.
+Objective:console-based **Student Record Management System** implemented in C using **Singly Linked Lists (SLL)** and file persistence. This project allows users to efficiently manage student records—including names, automatically assigned unique roll numbers, and academic percentages—with full data persistence across sessions.
 
 ---
 
