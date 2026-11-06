@@ -1,7 +1,5 @@
 # musafarvalayankaden-STUDENT_RECORD_MANAGEMENT_SYSTEM
-Objective:console-based **Student Record Management System** implemented in C using **Singly Linked Lists (SLL)** and file persistence. This project allows users to efficiently manage student records—including names, automatically assigned unique roll numbers, and academic percentages—with full data persistence across sessions.
-
----
+Objective: console-based **Student Record Management System** implemented in C using **Singly Linked Lists (SLL)** and file persistence. This project allows users to efficiently manage student records—including names, automatically assigned unique roll numbers, and academic percentages—with full data persistence across sessions.
 
 ## Features
 
@@ -21,13 +19,13 @@ Objective:console-based **Student Record Management System** implemented in C us
 
 ## Project Structure
 
-* `student.h`: Header file containing the structure definition (`SLL`) and global function prototypes[cite: 13].
-* `stud_main.c`: Driver program handling the interactive user menu and control loop[cite: 12].
-* `stud_add.c`: Logic for adding new student nodes and auto-generating roll numbers[cite: 15].
-* `stud_del.c`: Logic for deleting individual nodes or clearing the entire list[cite: 14].
-* `stud_show.c`: Formatted display functions for rendering records[cite: 9].
-* `stud_mod.c`: Implementation for modifying data, sorting, counting nodes, and reversing links[cite: 11].
-* `stud_save.c`: File handling routines (`readFile` and `saveFile`) to sync data with `student.dat`[cite: 10].
+* `student.h`: Header file containing the structure definition (`SLL`) and global function prototypes[cite: 10].
+* `stud_main.c`: Driver program handling the interactive user menu and control loop[cite: 9].
+* `stud_add.c`: Logic for adding new student nodes and auto-generating roll numbers[cite: 12].
+* `stud_del.c`: Logic for deleting individual nodes or clearing the entire list[cite: 11].
+* `stud_show.c`: Formatted display functions for rendering records[cite: 6].
+* `stud_mod.c`: Implementation for modifying data, sorting, counting nodes, and reversing links[cite: 8].
+* `stud_save.c`: File handling routines (`readFile` and `saveFile`) to sync data with `student.dat`[cite: 7].
 * `makefile`: Build automation script for compiling and cleaning the project.
 
 ---
@@ -38,7 +36,7 @@ Objective:console-based **Student Record Management System** implemented in C us
 Make sure you have `gcc`/`cc` and `make` installed on your Linux/Unix system.
 
 ### Build using Makefile
-You can easily build the binary executable using the included Makefile:
+You can easily build the binary executable named `student` using the included Makefile:
 
 ```bash
 make
